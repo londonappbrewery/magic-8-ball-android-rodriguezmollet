@@ -14,11 +14,13 @@
 
     <Button
         android:id="@+id/askButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="70dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
         android:background="@color/colorPrimary"
         android:text="@string/ask"
         android:textColor="@android:color/background_light" />
@@ -30,7 +32,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
-        android:fontFamily="@font/suranna"
+        android:fontFamily="sans-serif-thin"
         android:text="@string/textViewQuestion"
         android:textColor="@android:color/background_dark"
         android:textSize="20sp"
